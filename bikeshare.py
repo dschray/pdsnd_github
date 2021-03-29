@@ -273,14 +273,8 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-<<<<<<< HEAD
 
         # Ask the user if he/she wants to see the raw data
-||||||| merged common ancestors
-
-=======
-
->>>>>>> refactoring
         see_raw = input('\nWould you like to see the raw data? Enter "yes" or "no".\n')
         if see_raw.lower() == 'yes':
             display_raw_data(df)
