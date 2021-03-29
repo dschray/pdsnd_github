@@ -5,11 +5,14 @@
 Bikeshare Data Exploration
 
 ### Description
-Describe what your project is about and what it does
+The purpose of this project is the exploration of bikeshare data from Chicago, New York City and Washington.
 
 ### Files used
-Include the files used
+- bikeshare.py
+- *chicago.csv (not included in repo)*
+- *new_york_city.csv (not included in repo)*
+- *washington.csv (not included in repo)*
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- Programming for Data Science with Python Nanodegree Program
 
