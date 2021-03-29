@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+2021-03-22
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Exploration
 
 ### Description
 Describe what your project is about and what it does
