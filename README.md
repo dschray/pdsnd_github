@@ -5,7 +5,7 @@
 Bikeshare Data Exploration
 
 ### Description
-The purpose of this project is the exploration of bikeshare data from Chicago, New York City and Washington.
+The purpose of this project is the exploration of bikeshare data from Chicago, New York City and Washington. The user can interact with the script in an interactive manner through answering different questions.
 
 ### Files used
 - bikeshare.py
