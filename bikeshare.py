@@ -4,6 +4,7 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
+              'nyc': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
 def get_filter(initial_question, rerun_text, valid_inputs):
@@ -63,7 +64,7 @@ def get_filters():
     # get the name of the city to analyze
     city = get_filter('The data of which city do you want to analyze? Chicago, New York City or Washington?\n',
                       'Your input was not recognized. Please enter the city names correctly ("Chicago", "New York City" or "Washington"):\n',
-                      ['chicago','new york city','washington'])
+                      ['chicago','new york city','nyc','washington'])
 
     # get the type of filter the user wants to apply
     filter_type = get_filter('Would you like to filter the data by month, day, both or not at all? (Please type "none" for no time filter.)\n',
@@ -272,8 +273,14 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+<<<<<<< HEAD
 
         # Ask the user if he/she wants to see the raw data
+||||||| merged common ancestors
+
+=======
+
+>>>>>>> refactoring
         see_raw = input('\nWould you like to see the raw data? Enter "yes" or "no".\n')
         if see_raw.lower() == 'yes':
             display_raw_data(df)
